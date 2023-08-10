@@ -1,14 +1,12 @@
 const tipoAcao = document.querySelector('.tipo-acao')
+const nomeAcao = document.querySelector('.nome-acao')
 
-tipoAcao.addEventListener('changed', () => {
-    const nomeAcao = document.querySelector('.nome-acao')
-    const nomeAcaoAppear = nomeAcao.classList.contains('appear')
-    if (nomeAcaoAppear) {
-        nomeAcao.classList.remove('appear')
-    }else{
-        nomeAcao.classList.add('appear')
-    }
+tipoAcao.addEventListener('changed', function () {
+    nomeAcao.classList.add('aparecer')
+    console.log();
 })
+
+
 
 
 

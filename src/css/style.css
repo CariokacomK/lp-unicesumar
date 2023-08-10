@@ -1,0 +1,124 @@
+html {
+    background-color: #002351;
+}
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+}
+
+.logo-cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-cabecalho img{
+    width: 40%;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    border: solid 2px aliceblue;
+    width: 33%;
+    position: relative;
+    left: 33%;
+}
+
+.lead {
+    text-align: center;
+    width: 33%;
+    position: absolute;
+    left: 33%;
+    border: solid 2px aliceblue;
+    color: white;
+    padding: 10px;
+}
+
+.lead h3{
+    text-align: left;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.unidade h3 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.unidade ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.unidade label{
+    border: solid 1px;
+    padding: 2px;
+    border: 2px solid #5c5c5c;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cursos, .mga{
+    display: none;
+}
+
+.cursos, .pgo{
+    display: none;
+}
+
+.cursos, .cta{
+    display: none;
+}
+
+.cursos, .lda{
+    display: none;
+}
+
+.cursos, .cgr{
+    display: none;
+}
+
+.cursos, .cma{
+    display: none;
+}
+
+.nome-acao{
+    display: none;
+}
+
+.appear{
+    display: block;
+}
+
+.data-da-acao h3{
+    text-align: center;
+}
+
+.caixa {
+    width: 100%;
+    border: 2px solid #5c5c5c;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+.caixa-data{
+    margin: 10px;
+    min-height: 30px;
+}
+
+.caixa-envio {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 3px solid #5c5c5c;
+    border-radius: 25px;
+}
+

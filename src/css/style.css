@@ -83,33 +83,13 @@ form{
     filter: invert(1);
 }
 
-.cursos, .mga{
-    display: none;
-}
-
-.cursos, .pgo{
-    display: none;
-}
-
-.cursos, .cta{
-    display: none;
-}
-
-.cursos, .lda{
-    display: none;
-}
-
-.cursos, .cgr{
-    display: none;
-}
-
-.cursos, .cma{
+.cursos, .mga .pgo .cta .lda .cgr .cma{
     display: none;
 }
 
 .nome-acao{
     display: none;
-}
+} 
 
 .aparecer{
     display: block;

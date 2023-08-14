@@ -32,31 +32,31 @@
                 <div class="nome-candidato">
                     <h3>Nome Candidato</h3> 
 
-                        <input type="text" name="nome-candidato" id="nome-candidato" class="caixa">
+                        <input type="text" name="nome-candidato" id="nome-candidato" class="caixa" placeholder="Digite o nome completo">
                 </div>
 
                 <div class="cidade">
                     <h3>Cidade</h3>
 
-                        <input type="text" name="cidade-lead" id="cidade-lead" class="caixa"> 
+                        <input type="text" name="cidade-lead" id="cidade-lead" class="caixa" placeholder="Digite a cidade do candidato"> 
                 </div>
 
                 <div class="cpf">
                     <h3>CPF</h3> 
 
-                        <input type="number" name="cpf" id="cpf" class="caixa"> 
+                        <input type="text" name="cpf" id="cpf" class="caixa" placeholder="123.456.789-10"> 
                 </div>
 
                 <div class="telefone">
                     <h3>Telefone</h3> 
 
-                        <input type="number" name="telefone" id="telefone" class="caixa"> 
+                        <input type="text" name="telefone" id="telefone" class="caixa" placeholder="(xx) XXXXX-XXXX"> 
                 </div>
 
                 <div class="email">
                     <h3>E-mail</h3>
 
-                        <input type="email" name="email" id="email" class="caixa"> 
+                        <input type="email" name="email" id="email" class="caixa" placeholder="Digite o e-mail do candidato aqui"> 
                 </div>
 
                 <div class="unidade">
@@ -98,6 +98,12 @@
                 <div class="cursos mga">
                     <h3>Curso de interesse</h3> 
 
+                    <div class="aviso">
+                        <p class="desc-tooltip">Caso o curso optado não esteja nas opções clique no simbolo</p>
+
+                        <img src="./src/images/tooltipIcon.png" alt="Tool Tip Icon" class="tooltip"> 
+                    </div>
+
                     <select name="curso" id="cursos" class="caixa" required> 
                         <option value="" selected></option>
                         <optgroup label="Humanas">
@@ -134,8 +140,15 @@
                         </optgroup>
                     </select> 
                 </div>
+
                 <div class="cursos cma">
                     <h3>Curso de interesse</h3> 
+
+                    <div class="aviso">
+                        <p class="desc-tooltip">Caso o curso optado não esteja nas opções clique no simbolo</p>
+
+                        <img src="./src/images/tooltipIcon.png" alt="Tool Tip Icon" class="tooltip"> 
+                    </div>
 
                     <select name="curso" id="cursos" class="caixa" required> 
                         <option value="" selected></option>
@@ -144,8 +157,15 @@
                         </optgroup>
                     </select> 
                 </div>
+
                 <div class="cursos cta">
                     <h3>Curso de interesse</h3> 
+
+                    <div class="aviso">
+                        <p class="desc-tooltip">Caso o curso optado não esteja nas opções clique no simbolo</p>
+
+                        <img src="./src/images/tooltipIcon.png" alt="Tool Tip Icon" class="tooltip"> 
+                    </div>
 
                     <select name="curso" id="cursos" class="caixa" required> 
                         <option value="" selected></option>
@@ -179,8 +199,15 @@
                         </optgroup>
                     </select> 
                 </div>
+
                 <div class="cursos lda">
                     <h3>Curso de interesse</h3> 
+
+                    <div class="aviso">
+                        <p class="desc-tooltip">Caso o curso optado não esteja nas opções clique no simbolo</p>
+
+                        <img src="./src/images/tooltipIcon.png" alt="Tool Tip Icon" class="tooltip"> 
+                    </div>
 
                     <select name="curso" id="cursos" class="caixa" required> 
                         <option value="" selected></option>
@@ -199,8 +226,15 @@
                         </optgroup>
                     </select> 
                 </div>
+
                 <div class="cursos cgr">
                     <h3>Curso de interesse</h3> 
+
+                    <div class="aviso">
+                        <p class="desc-tooltip">Caso o curso optado não esteja nas opções clique no simbolo</p>
+
+                        <img src="./src/images/tooltipIcon.png" alt="Tool Tip Icon" class="tooltip"> 
+                    </div>
 
                     <select name="curso" id="cursos" class="caixa" required> 
                         <option value="" selected></option>
@@ -214,8 +248,15 @@
                         </optgroup>
                     </select> 
                 </div>
+
                 <div class="cursos pgo">
                     <h3>Curso de interesse</h3> 
+
+                    <div class="aviso">
+                        <p class="desc-tooltip">Caso o curso optado não esteja nas opções clique no simbolo</p>
+
+                        <img src="./src/images/tooltipIcon.png" alt="Tool Tip Icon" class="tooltip"> 
+                    </div>
 
                     <select name="curso" id="cursos" class="caixa" required> 
                         <option value="" selected></option>
@@ -248,6 +289,13 @@
                         </optgroup>
                     </select> 
                 </div>
+
+                <div class="curso-nao-ofertado">
+                    <h3>Curso não ofertado</h3>
+
+                    <input type="text" name="curso-nao-ofertado" id="curso-nao-ofertado" class="caixa" placeholder="Digite o curso não ofertado aqui">
+                </div>
+
                 <div class="analista">
                     <h3>Analista Comercial</h3> 
 
@@ -278,7 +326,7 @@
                 <div class="nome-acao">
                     <h3>Nome da Ação</h3> 
 
-                    <input type="text" name="nome-da-acao" id="nome-acao" class="caixa" required> 
+                    <input type="text" name="nome-da-acao" id="nome-acao" class="caixa" placeholder="Digite o nome da Ação" required> 
                         
                 </div>
 

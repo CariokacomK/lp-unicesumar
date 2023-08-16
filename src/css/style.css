@@ -1,6 +1,8 @@
 html {
     background-color: #002351;
     background-image: linear-gradient(to top, #002351, rgba(0, 0, 0, 0.699) 90%);
+    min-width: 320px;
+    max-width: 1400px;
 }
 
 .cabecalho {

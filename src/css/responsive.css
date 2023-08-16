@@ -1,0 +1,63 @@
+@media (max-width:1200px) {
+    .aviso img{
+        left: 45%;
+        bottom: -287px;
+    }
+
+    .unidade ul{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:768px) {
+    .aviso img{
+        left: 50%;
+        bottom: -248px;
+    }
+
+    .desc-tooltip{
+        display: block;
+        font-size: small;
+    }
+}
+
+@media (max-width:576px) {
+    form{
+        width: 100%;
+    }
+
+    .logo-cabecalho img{
+        width: 80%;
+    }
+
+    .aviso img{
+        left: 38%;
+        bottom: -298px;
+    }
+}
+
+@media (max-width:375px) {
+    .unidade ul{
+        gap: 7px;
+    }
+
+    .unidade li{
+        padding: 5px 0px;
+    }
+
+    .aviso img{
+        left: 43%;
+        bottom: -273px;
+    }
+}
+
+@media (max-width:320px) {
+    .unidade ul{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .aviso img{
+        left: 50%;
+    }
+}
